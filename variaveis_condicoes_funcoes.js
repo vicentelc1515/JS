@@ -5,8 +5,28 @@ console.log(c)
 
 //trabalhado com array
 console.log("\nTestando Array")
-array = ["amor","3","feijão"]
+array = ["amor",3,"feijão"]
 console.log(array)
+
+//propriedades de arrays
+
+array.pop()
+console.log(array)
+array.push("feijão") //removo o ultimo elemento
+console.log(array)
+array.push(17,"farinha") //adionando 2 elementos ao final do array.
+console.log(array)
+//array.splice(1,3) //remove a partir da posição 1, 3 elementos, incluindo a posição 1.
+//console.log(array)
+
+array.splice(3,1) // remove numa posição especifica!!
+console.log(array)
+
+//percorrendo o array
+for(var i=0;i<array.length;i++){
+	console.log(array[i] +"")
+}
+
 var tamanho = array.length
 console.log("Tamanho do Vetor: "+tamanho)
 
