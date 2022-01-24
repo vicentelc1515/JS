@@ -10,9 +10,9 @@ console.log(array)
 
 //propriedades de arrays
 
-array.pop()
+array.pop() //remove o ultimo elemento
 console.log(array)
-array.push("feijão") //removo o ultimo elemento
+array.push("feijão") //adiciona 1 elemento ao fim do array
 console.log(array)
 array.push(17,"farinha") //adionando 2 elementos ao final do array.
 console.log(array)
